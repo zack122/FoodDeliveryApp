@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,5 +25,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("dish1 == dish2 " + dish1.equals(dish2));
         System.out.println("dish1 == dish3 " + dish1.equals(dish3));
         System.out.println("dish2 == dish3 " + dish2.equals(dish3));
+
+        Menu menu = new Menu();
+        HashMap<String, ArrayList<Dish>> dishesByCuisine = menu.dishesByCuisine();
     }
 }
