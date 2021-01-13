@@ -10,23 +10,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
 public class RestaurantHeaderFragment extends Fragment {
 
-
+    // Constructor
     public RestaurantHeaderFragment() {
         // Required empty public constructor
     }
 
-
-
+    // Factory method
     public static RestaurantHeaderFragment newInstance() {
         RestaurantHeaderFragment fragment = new RestaurantHeaderFragment();
-
         return fragment;
     }
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -37,23 +32,24 @@ public class RestaurantHeaderFragment extends Fragment {
         return rootView;
     }
 
-    //private properties
+    // Private property
     private View rootView;
-    //private methods
-    private void setupViews(){
+
+    // Private methods
+    private void setupViews() {
         Restaurant restaurant = Restaurant.getInstance();
 
-        ImageView imageView = rootView.findViewById(R.id.restaurant_image);
-        TextView nameTextView =  rootView.findViewById(R.id.name_text_View);
-        TextView shortDescriptionTextView =  rootView.findViewById(R.id.short_Description_text_view);
-        TextView streetAddressTextView =  rootView.findViewById(R.id.street_address_text_view);
-        TextView cityTextView =  rootView.findViewById(R.id.city_text_view);
-        TextView phoneNumberTextView =  rootView.findViewById(R.id.phone_number_text_view);
+        ImageView imageView = rootView.findViewById(R.id.image_view);
+        TextView nameTextView = rootView.findViewById(R.id.name_text_view);
+        TextView shortDescriptionTextView = rootView.findViewById(R.id.short_description_text_view);
+        TextView streetAddressTextiew = rootView.findViewById(R.id.street_address_text_view);
+        TextView cityTextView = rootView.findViewById(R.id.city_text_view);
+        TextView phoneNumberTextView = rootView.findViewById(R.id.phone_number_text_view);
 
         imageView.setImageResource(restaurant.imageResource);
         nameTextView.setText(restaurant.restaurantName);
-        shortDescriptionTextView.setText(restaurant.shortDesciption);
-        streetAddressTextView.setText(restaurant.streetAddress);
+        shortDescriptionTextView.setText(restaurant.shortDescription);
+        streetAddressTextiew.setText(restaurant.streetAddress);
         cityTextView.setText(restaurant.city);
         phoneNumberTextView.setText(restaurant.phoneNumber);
     }

@@ -1,21 +1,17 @@
 package com.example.fooddeliveryapp;
 
-import androidx.annotation.NonNull;
-
 public enum Cuisine {
-    BREAKFAST( "Breakfast"),
-    BURGERS( "Burgers"),
-    CHINESE( "Chinese"),
-    DESSERT( "Dessert"),
-    FISH( "Fish"),
-    JAPANESE( "Japanese"),
-    KOREAN( "Korean"),
+    BREAKFAST("Breakfast"),
+    BURGERS("Burgers"),
+    CHINESE("Chinese"),
+    DESSERT("Dessert"),
+    FISH("Fish"),
+    JAPANESE("Japanese"),
+    KOREAN("Korean"),
     MEXICAN("Mexican"),
-    SALAD( "Salad"),
-    STEAK( "Steak"),
-    SUSHI( "Sushi");
-
-
+    SALAD("Salad"),
+    STEAK("Steak"),
+    SUSHI("Sushi");
 
     Cuisine(String cuisineName) {
         this.cuisineName = cuisineName;
@@ -26,5 +22,6 @@ public enum Cuisine {
         return cuisineName;
     }
 
-    private  String cuisineName;
+    // Private properties
+    private String cuisineName;
 }
