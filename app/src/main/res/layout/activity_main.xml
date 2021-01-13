@@ -7,18 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-=======
 
->>>>>>> d0fab76f8af4fd14270a21faa339dac7f43fc102
 
         <fragment
-            android:name="com.example.s04proj03.RestaurantHeaderFragment"
+            android:name="com.example.fooddeliveryapp.RestaurantHeaderFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout="@layout/fragment_restaurant_header" />
