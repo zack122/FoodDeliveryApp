@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
 public class DishActivity extends AppCompatActivity {
 
     @Override
@@ -36,6 +37,8 @@ public class DishActivity extends AppCompatActivity {
         // Connect and populate the dish name
         final TextView dishNameTextView = findViewById(R.id.dishNameTextView);
         dishNameTextView.setText(selectedDish.name);
+
+
 
         // Connect and populate the dish item price
         final TextView itemPriceTextView = findViewById(R.id.itemPriceTextView);

@@ -71,4 +71,3 @@ public class PickerNumberStepper extends LinearLayout implements View.OnClickLis
         numberEditText.setText(currentValue.toString());
     }
 }
-

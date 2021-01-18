@@ -3,6 +3,7 @@ package com.example.fooddeliveryapp;
 import com.thedeanda.lorem.Lorem;
 import com.thedeanda.lorem.LoremIpsum;
 
+
 public class Restaurant {
 
     // Singleton

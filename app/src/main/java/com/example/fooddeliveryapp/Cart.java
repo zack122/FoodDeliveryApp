@@ -31,7 +31,7 @@ public class Cart {
         return totalPriceInCents;
     }
 
-    public void add(com.example.fooddeliveryapp.Dish dish, Integer quantity) {
+    public void add(Dish dish, Integer quantity) {
         System.out.println("Adding " + quantity + " items of " + dish.name);
 
         // Check if dish is already in cart
@@ -86,13 +86,13 @@ public class Cart {
         }
 
         // Constructor
-        public CartItem(com.example.fooddeliveryapp.Dish dish, Integer quantity) {
+        public CartItem(Dish dish, Integer quantity) {
             this.dish = dish;
             this.quantity = quantity;
         }
 
         // Private properties
-        private com.example.fooddeliveryapp.Dish dish;
+        private Dish dish;
         private Integer quantity;
     }
 }

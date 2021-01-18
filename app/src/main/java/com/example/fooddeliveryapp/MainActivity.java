@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         // Get singleton instance of menu
-        HashMap<String, ArrayList<com.example.fooddeliveryapp.Dish>> dishesByCuisine = com.example.fooddeliveryapp.Menu.getInstance().dishesByCuisine();
+        HashMap<String, ArrayList<Dish>> dishesByCuisine = Menu.getInstance().dishesByCuisine();
 
         // Loop through all cuisines (dish categories)
-        for (Map.Entry<String, ArrayList<com.example.fooddeliveryapp.Dish>> entry : dishesByCuisine.entrySet()) {
+        for (Map.Entry<String, ArrayList<Dish>> entry : dishesByCuisine.entrySet()) {
             // Get cuisine enum for this cuisines (dish category)
             Cuisine cuisine = Cuisine.valueOf(entry.getKey());
 
