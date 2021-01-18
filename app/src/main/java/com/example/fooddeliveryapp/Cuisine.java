@@ -5,11 +5,11 @@ public enum Cuisine {
     BURGERS("Burgers"),
     CHINESE("Chinese"),
     DESSERT("Dessert"),
-    FISH("Fish"),
+    DRINK("Drink"),
     JAPANESE("Japanese"),
     KOREAN("Korean"),
     MEXICAN("Mexican"),
-    SALAD("Salad"),
+    BEANS("Beans"),
     STEAK("Steak"),
     PIZZA("Pizza");
 

@@ -26,7 +26,8 @@
         android:layout_marginHorizontal="12dp"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/rubik_mono_one"
-        android:text="@string/some_text_here"
+        android:text="Food Catagories"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +39,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
+        android:textAlignment="center"
+
         android:fontFamily="@font/rubik_bold"
         android:text="@string/some_text_here"
         android:textColor="@color/black"
@@ -55,6 +58,7 @@
         android:fontFamily="@font/open_sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toBottomOf="@id/short_description_text_view"
         app:layout_constraintBottom_toBottomOf="parent">
 
@@ -62,16 +66,20 @@
             android:id="@+id/street_address_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
+            android:fontFamily="@font/rubik_bold"
             android:text="@string/some_text_here"
             android:textColor="@color/black"
+            android:textAlignment="center"
+                android:paddingStart="40dp"
             android:textSize="12sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
-            android:text=", "
+            android:fontFamily="@font/rubik_bold"
+            android:text="| "
+            android:textAlignment="center"
+
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -79,9 +87,10 @@
             android:id="@+id/city_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
+            android:fontFamily="@font/rubik_bold"
             android:text="@string/some_text_here"
             android:textColor="@color/black"
+            android:textAlignment="center"
             android:textSize="12sp" />
 
         <TextView
@@ -93,11 +102,13 @@
             android:textSize="12sp" />
 
         <TextView
+
             android:id="@+id/phone_number_text_view"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
+            android:layout_height="16dp"
+            android:fontFamily="@font/rubik_bold"
             android:text="@string/some_text_here"
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
