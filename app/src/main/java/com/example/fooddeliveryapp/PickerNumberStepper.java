@@ -14,7 +14,7 @@ public class PickerNumberStepper extends LinearLayout implements View.OnClickLis
 
     // Public properties
     Integer minimumValue = 0;
-    Integer maximumValue = 10;
+    Integer maximumValue = 69;
     Integer currentValue = 0;
 
     // Constructor

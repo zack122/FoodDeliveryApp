@@ -11,7 +11,8 @@ public enum Cuisine {
     MEXICAN("Mexican"),
     SALAD("Salad"),
     STEAK("Steak"),
-    SUSHI("Sushi");
+    PIZZA("Pizza");
+
 
     Cuisine(String cuisineName) {
         this.cuisineName = cuisineName;

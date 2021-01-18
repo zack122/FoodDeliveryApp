@@ -25,7 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="20dp"
-
         android:fontFamily="@font/open_sans_semibold"
         android:text="@string/some_text_here"
         android:textAlignment="viewEnd"

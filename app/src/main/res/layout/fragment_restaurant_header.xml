@@ -8,15 +8,15 @@
     tools:context=".RestaurantHeaderFragment">
 
     <ImageView
-        android:id="@+id/image_view"
+            android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:scaleType="centerInside"
-        app:layout_constraintDimensionRatio="16:9"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/restaurant"
+        app:srcCompat="@drawable/uber_scuffed"
         android:contentDescription="@string/restaurant_image" />
 
     <TextView

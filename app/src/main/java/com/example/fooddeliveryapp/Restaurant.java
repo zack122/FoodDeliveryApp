@@ -36,7 +36,7 @@ public class Restaurant {
         streetAddress = randomStreetAddress();
         city = lorem.getCity();
         phoneNumber = lorem.getPhone();
-        imageResource = R.drawable.restaurant;
+        imageResource = R.drawable.uber_scuffed;
     }
 
     private String randomStreetAddress() {
